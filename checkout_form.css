@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Mon, Arial, Helvetica, sans-serif;
+}
+@font-face{
+    font-family: Mon;
+    src: url('FONTS/Montserrat-Regular.ttf');
+}
+
+#checkout-title{
+  
+    text-align: center;
+    margin: 1.4rem 0;
+    
+    
+}
+#checkout-title h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main{
+    margin: 2.5rem auto;
+    padding-left: 4rem;
+    display: flex;
+    width: 56.25rem;
+}
+
+form{
+    height: 38.625rem;
+    width: 23.25rem;
+    margin-right: 6.25rem;
+    position: relative;
+}
+.campo{
+    position: relative;
+    margin: 0.625rem 0;
+}
+img{
+    height: 6.9375rem;
+    width: 6rem;
+}
+
+.shipping-address_data-form{
+    margin-top: 3.125rem;
+}
+.input-field{
+    margin-top: 0.4rem;
+    
+}
+
+.campo i{
+ position: absolute;
+ top: 2.1rem;
+ left: 0.5rem;
+}
+.campo label{
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+h1{
+    font-size: 1.125rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.campo input{
+    padding: 0.5rem 0.3125rem 0.5rem 2.2rem;
+    border: 1px solid #828282;
+    border-radius: 0.3125rem;
+    width: 23.25rem;
+}
+
+#country-field{
+
+   margin: 0px 0.4375rem 0px 0px;
+   display: inline-block;
+   width: 7.375rem;
+   height: 4.5rem;
+}
+
+#postal-code-field{
+    
+    margin: 0px ;
+    display: inline-block;
+    width: 216px;
+    height: 70px;
+}
+
+#post-code{
+    width: 13.5rem;
+}
+
+#country{
+    width: 7.438rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#user-reminder{
+    display: inline-block;
+    margin: 0.5rem 0px ;
+    width: 1rem
+}
+
+#btn-submit{
+  
+  border-radius: 0.625rem;
+  font-weight: 600;
+  padding: 0.875rem 0;
+  width: 4.625rem;
+  height: 2.75rem;
+  background-color: #F2994A;
+  color: white;
+  border: white;
+  position: absolute;
+  top:36.375rem ;
+  bottom: -2.5rem;
+  right: -7.5rem;
+  left: 26.125rem;
+}
+
+.product-panel{
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem 0.625rem ;
+    height: 23rem;
+    background-color: #EEE;
+    border-radius: 0.625rem;
+}
+
+img{
+    display: inline-block;
+    border-radius: 5px;
+}
+.products-preview{
+    height: auto;
+    margin-right: 1rem;
+
+}
+.product{
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-around;
+    
+}
+h2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5c5b5b;
+    margin-top: 0.2rem;
+}
+.product-info{
+    width: 10.875rem;
+    height: 7rem;
+    margin-left: 1.2rem;
+    
+}
+
+.product-info>p{
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.quantity-controller{
+    width: 6.375rem;
+    height: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid rgb(130, 130, 130);
+    align-items: center;
+    vertical-align: bottom;
+    margin-top: 2.2rem;
+    border-radius: 0.3125rem;
+}
+
+.quantity-controller button{
+    width: 1.375rem;
+    height: 1.425rem;
+    border-radius: 0.3125rem;
+    border: white;
+    background-color: #d1cece;
+    color: black;
+    
+}
+
+ strong{
+     color: #f2994a;
+     margin-right: 0.5rem;
+     font-size: 1rem;
+
+ }
+
+
+ .buy-detail {
+    border-top: 1px solid #BDBDBD;
+    width: 18rem;
+    height: 1rem;
+    margin: 1.2rem 0px 0.125rem 0px;
+    display: flex;
+}
+.buy-detail p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    flex: 1;
+   
+    
+}
+.buy-detail p:nth-child(2) {
+    text-align: right;
+}
+.fas{
+     opacity: 0.5;
+}
